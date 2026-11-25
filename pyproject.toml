@@ -1,0 +1,9 @@
+[project]
+name = "lr0-experiment-harness"
+version = "0.1.0"
+description = "Reproducible experiment harness for course laboratory 0"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,40 @@
+{
+  "datasets": [
+    {
+      "name": "sklearn_load_digits",
+      "source": "scikit-learn.datasets.load_digits",
+      "source_package": "scikit-learn",
+      "source_version": "1.9.1",
+      "selection_rule": "Stratified split: test=20% first; val=25% of remaining; random_state=split_seed=0",
+      "original_records": 1797,
+      "records": {
+        "train": 1077,
+        "val": 360,
+        "test": 360
+      },
+      "sha256": {
+        "split.json": "852aea16f8963ce7dea3033260ee94e119b679084e6a6a89a40655ce52868903"
+      },
+      "feature_shape": [
+        8,
+        8
+      ],
+      "feature_range": [
+        0,
+        16
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

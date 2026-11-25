@@ -1,0 +1,13 @@
+.venv/
+.lvenv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+runs/
+mlartifacts/
+mlflow.db
+optuna.db
+*.log
+.DS_Store
